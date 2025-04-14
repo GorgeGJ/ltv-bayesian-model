@@ -1,0 +1,7 @@
+pymc
+pymc-marketing
+pandas
+matplotlib
+seaborn
+numpy
+arviz

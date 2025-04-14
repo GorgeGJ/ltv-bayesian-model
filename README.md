@@ -39,8 +39,8 @@ pip install pymc pymc-marketing pandas matplotlib seaborn numpy arviz
 ---
 
 ## 📂Project Structure
-LTV_Hierarchical_Model.ipynb — Full modeling notebook
+```LTV_Hierarchical_Model.ipynb``` — Full modeling notebook
 
-sample_transactions.csv — Simulated e-commerce data
+```sample_transactions.csv``` — Simulated e-commerce data
 
-requirements.txt — Python dependencies
+```requirements.txt``` — Python dependencies

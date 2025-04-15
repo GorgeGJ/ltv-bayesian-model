@@ -1,4 +1,4 @@
-# ltv-hierarchical-model
+# ltv-Bayesian-model
 
 # 📊 Bayesian Customer Lifetime Value (LTV) Modeling with PyMC
 

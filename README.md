@@ -8,6 +8,9 @@ This project demonstrates how to estimate Customer Lifetime Value (LTV) using a 
 - 🌍 Optional segmentation by channel or geography
 - 📊 Posterior diagnostics and LTV visualizations
 
+## 📂 Data
+- The project uses simulated sample data for function testing purpose.
+
 ## 📂 Files
 - `LTV_PYMC_Demo.ipynb`: Full modeling notebook
 - `README.md`: This file

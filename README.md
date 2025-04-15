@@ -14,6 +14,7 @@ This project demonstrates how to estimate Customer Lifetime Value (LTV) using a 
 ## 📂 Files
 - `LTV_PYMC_Demo.ipynb`: Full modeling notebook
 - `README.md`: This file
+- `requirements.txt`: Dependent Libraries
 
 ## 🧪 How to Run
 

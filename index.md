@@ -1,38 +1,62 @@
-# 📊 Bayesian Customer Lifetime Value (LTV) Modeling with PyMC
+# Bayesian LTV Modeling with PyMC
 
-This project demonstrates how to build a **Bayesian hierarchical LTV model** using simulated e-commerce behavior and PyMC. It includes:
+Welcome to the project demo for **Customer Lifetime Value (LTV) modeling using PyMC**.
 
-- 📦 **BG/NBD** for purchase frequency modeling
-- 💰 **Gamma-Gamma** for average order value
-- 📈 **Cohort decay analysis** by acquisition channel
-- 🎯 Business application: understanding high-value segments for marketing optimization
+---
 
-## 🔍 Use Case
+## 🔍 Overview
 
-Each acquisition channel has different characteristics:
-- Paid users churn faster but may spend more
-- Organic users are retained longer
-- Referral users lie in between
+This project implements a **Bayesian BG/NBD + Gamma-Gamma model** using PyMC to estimate customer lifetime value. It includes:
 
-This notebook shows how to model LTV using these segments hierarchically.
+- BG/NBD modeling for purchase frequency
+- Gamma-Gamma modeling for average order value
+- LTV estimation per customer
+- Optional segmentation by acquisition channel or geography
+- Visual diagnostics of posterior distributions
 
-## 🚀 Quick Start
+---
+
+## 📈 Business Use Cases
+
+- 📊 Segment customers by expected LTV
+- 💰 Inform paid marketing bid strategies
+- 🔁 Forecast future repeat revenue
+- 🌍 Compare customer behavior across regions
+- 🎯 Personalize lifecycle and retention campaigns
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download this repo  
+2. Install required packages:
 
 ```bash
-pip install -r requirements.txt
-jupyter notebook LTV_Hierarchical_Model.ipynb
+pip install pymc pymc-marketing arviz pandas matplotlib seaborn
 ```
+
+3. Launch the notebook:
+
+```bash
+jupyter notebook LTV_PYMC_Demo.ipynb
+```
+
+---
 
 ## 📂 Files
 
-- `LTV_Hierarchical_Model.ipynb`: full notebook
-- `sample_transactions.csv`: simulated data
-- `requirements.txt`: dependencies
+- `LTV_PYMC_Demo.ipynb`: Full modeling walkthrough
+- `README.md`: Project overview
+- `index.md`: This GitHub Pages content
 
-## 🧠 Next Steps
+---
 
-- Swap in your real transaction data
-- Extend with causal inference or ROI analysis
-- Integrate predictions into paid media bidding
+## 🔗 Resources
 
-Built with ❤️ using PyMC.
+- [PyMC](https://www.pymc.io/)
+- [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing)
+- [ArviZ](https://www.arviz.org/)
+
+---
+
+Built with ❤️ using Bayesian methods to bring clarity to customer behavior.

@@ -1,46 +1,38 @@
-# ltv-Bayesian-model
+# 📊 Bayesian Customer Lifetime Value Modeling with PyMC
 
-# 📊 Bayesian Customer Lifetime Value (LTV) Modeling with PyMC
+This project demonstrates how to estimate Customer Lifetime Value (LTV) using a **Bayesian BG/NBD + Gamma-Gamma model** implemented in PyMC. The notebook includes:
 
-This project demonstrates how to build a **Bayesian hierarchical model** to estimate customer lifetime value (LTV) using **PyMC** and **PyMC-Marketing**. We combine probabilistic modeling with cohort segmentation to predict future customer behavior by acquisition channel.
+- ✅ Flat Bayesian BG/NBD modeling (no hierarchy)
+- 💰 Gamma-Gamma modeling for average order value
+- 📈 LTV estimation for individual customers
+- 🌍 Optional segmentation by channel or geography
+- 📊 Posterior diagnostics and LTV visualizations
 
-## 💼 Business Context
+## 📂 Files
+- `LTV_PYMC_Demo.ipynb`: Full modeling notebook
+- `README.md`: This file
 
-Customer behavior varies across acquisition channels:
-
-- **Paid** users may spend more but churn faster  
-- **Organic** users tend to stay longer but spend less  
-- **Referral** users typically fall in the middle  
-
-Understanding these differences through **hierarchical modeling** allows marketing and analytics teams to optimize:
-
-- 📈 Campaign strategy
-- 📊 Budget allocation
-- 🎯 Retargeting efficiency
-
----
-
-## 📘 Features
-
-- **Simulated transaction data** across 3 acquisition channels
-- **Empirical cohort decay curves**
-- **Hierarchical BG/NBD model** for customer repeat behavior
-- **Gamma-Gamma model** for average order value
-- **Custom priors** to reflect business knowledge
-- **Posterior diagnostics** and uncertainty quantification using ArviZ
-
----
-
-## 🧪 Requirements
+## 🧪 How to Run
 
 ```bash
-pip install pymc pymc-marketing pandas matplotlib seaborn numpy arviz
+pip install pymc pymc-marketing arviz pandas matplotlib seaborn
+jupyter notebook LTV_PYMC_Demo.ipynb
 ```
+
+## 📈 Use Cases
+
+- Segment customers by predicted LTV
+- Optimize paid marketing bids
+- Forecast repeat revenue
+- Compare behavior across geographies
+- Evaluate campaign or channel performance using lifetime value
+
+## 🧠 Built With
+
+- [PyMC](https://www.pymc.io/)
+- [ArviZ](https://www.arviz.org/)
+- [pymc-marketing](https://github.com/pymc-labs/pymc-marketing)
+
 ---
 
-## 📂Project Structure
-```LTV_Hierarchical_Model.ipynb``` — Full modeling notebook
-
-```sample_transactions.csv``` — Simulated e-commerce data
-
-```requirements.txt``` — Python dependencies
+Built with ❤️ by applying Bayesian modeling to real customer behavior.

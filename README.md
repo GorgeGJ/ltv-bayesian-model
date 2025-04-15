@@ -24,10 +24,10 @@ jupyter notebook LTV_PYMC_Demo.ipynb
 
 ## 📈 Use Cases
 
+- Compute predicted LTV
 - Segment customers by predicted LTV
 - Optimize paid marketing bids
-- Forecast repeat revenue
-- Compare behavior across geographies
+- Compare behavior across channels
 - Evaluate campaign or channel performance using lifetime value
 
 ## 🧠 Built With
